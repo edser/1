@@ -26,4 +26,6 @@ class PreferencesTests: XCTestCase {
         let newPreferences = Preferences()
         XCTAssertFalse(newPreferences.cacheAerials, "Property write verified")
     }
+    
+    
 }
